@@ -1,0 +1,40 @@
+<svg width="147px" height="55px" viewBox="0 0 147 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="141" height="49" rx="2"></rect>
+        <filter x="-3.5%" y="-8.2%" width="107.1%" height="120.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Platform-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cloud-page-without-clouds" transform="translate(-149.000000, -2062.000000)">
+            <g id="Group-33" transform="translate(87.000000, 1644.000000)">
+                <g id="Group-23" transform="translate(0.000000, 330.000000)">
+                    <g id="Group-11" transform="translate(65.000000, 58.000000)">
+                        <g id="Group-16" transform="translate(0.000000, 32.000000)">
+                            <g id="Rectangle-5">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#27AE60" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Group-14" transform="translate(12.000000, 10.000000)" fill="#FFFFFF">
+                                <path d="M19.8311813,10.0010035 L13.7882427,13.4532711 C12.8960523,12.7394755 11.624944,12.7697989 10.7672997,13.5253383 C9.90965539,14.2808777 9.71046602,15.545809 10.293902,16.531601 C10.877338,17.5173929 12.0767376,17.9424484 13.1444205,17.5417968 C14.2121035,17.1411453 14.8430801,16.0292351 14.6440129,14.8992075 L20.6702698,11.4545014 C21.1031594,11.1797651 22.02232,10.8025278 22.4518733,11.0470179 C22.7613184,11.2226139 22.9381442,11.8107344 22.9523237,12.676952 L22.9448169,20.2914327 C22.943566,21.0017198 22.567417,21.6577452 21.9572615,22.0137858 L13.294465,27.054819 C12.6833006,27.4088552 11.9313525,27.4088552 11.3201881,27.054819 L2.65739164,22.0137858 C2.04723614,21.6577452 1.67108711,21.0017198 1.66983618,20.2914327 L1.66983618,10.2135671 C1.67108711,9.50327998 2.04723614,8.84725462 2.65739164,8.49121405 L10.4977813,3.93327981 C11.2437342,4.79528826 12.4938386,4.99896411 13.4715306,4.41778406 C14.4492225,3.83660401 14.8765123,2.63581651 14.4879677,1.56134994 C14.0994232,0.486883362 13.0055202,-0.155756369 11.8857906,0.0326381005 C10.766061,0.22103257 9.93888045,1.18689454 9.91809291,2.33023123 L1.82747806,7.03519561 C0.699326352,7.69068475 0.0030329497,8.90168648 0,10.2135671 L0,20.2889122 C0.00123239385,21.6001822 0.69521999,22.8116824 1.82163947,23.468964 L10.484436,28.5099973 C11.6119627,29.1633342 12.999354,29.1633342 14.1268808,28.5099973 L22.7896773,23.468964 C23.9153247,22.8121344 24.6091933,21.6018021 24.6113168,20.2914327 L24.6113168,12.9668114 C24.6596936,11.2486592 24.2034497,10.1102259 23.2717778,9.5809174 C21.8721849,8.78695466 20.1131017,9.822887 19.8311813,10.0010035 Z" id="Logo---Graphcool"></path>
+                            </g>
+                            <g id="Group-15" transform="translate(46.000000, 8.000000)" font-weight="500" font-family="OpenSans-Semibold, Open Sans" fill="#FFFFFF" font-size="12">
+                                <text id="BACKEND-BY" opacity="0.699999988" letter-spacing="0.75">
+                                    <tspan x="0.556640625" y="13">BACKEND B</tspan>
+                                    <tspan x="73.8984375" y="13">Y</tspan>
+                                </text>
+                                <text id="GRAPHCOOL" letter-spacing="1">
+                                    <tspan x="0.764648438" y="29">GRAPHCOOL</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

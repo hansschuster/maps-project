@@ -1,0 +1,30 @@
+<extends src='layout.html'>
+  <block name='content'>
+    <section id="sidebar" data-bind="css: { 'sidebar-open': sidebarOpen }">
+      <input data-bind="textInput: filter" placeholder="Filter Locations"
+        class="filter" type="text">
+      <ul data-bind="foreach: places" class="list">
+        <li data-bind="text: name, visible: visible, click: $root.selectPlace, css: { selected: $data.fsId == $root.selectedPlaceFsId() }"
+          class="list-item"></li>
+      </ul>
+      <div class="badges">
+        <a class="graphcool-badge" target="_blank" href="https://www.graph.cool/"><img class="graphcool-badge-img" src="img/graphcool-badge.svg" alt="Backend by Graphcool"></a>
+        <a class="foursquare-badge" target="_blank" href="https://foursquare.com/"><img class="foursquare-badge-img" src="img/foursquare-icon.png" alt="Powered by Foursquare"></a>
+      </div>
+      <span class="netlify-attribution">Hosted by <a target="_blank" href="https://www.netlify.com/">Netlify</a></span>
+    </section>
+    <section id="map-w-header" data-bind="css: { 'open-sidebar-map': sidebarOpen }">
+      <div id="header">
+        <div class="menu-icon-container" data-bind="click: toggleSidebarOpen, css: { clicked: sidebarOpen }">
+          <div class="menu-icon-dash menu-icon-dash-top"></div>
+          <div class="menu-icon-dash menu-icon-dash-middle"></div>
+          <div class="menu-icon-dash menu-icon-dash-bottom"></div>
+        </div>
+        <div class="title">
+          <h1>Innsbruck</h1>
+        </div>
+      </div>
+      <div id="map"></div>
+    </section>
+  </block>
+</extends>
