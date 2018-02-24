@@ -9,7 +9,7 @@ module.exports = {
   ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
            'graphcool/**', 'serverless/**', 'public_static/**'],
   reshape: htmlStandards({
-    locals: (ctx) => { return { pageId: pageId(ctx), foo: 'bar' } },
+    locals: (ctx) => { return { pageId: pageId(ctx), foo: 'bar' }; },
     minify: env === 'production'
   }),
   postcss: cssStandards({
