@@ -28,13 +28,15 @@ a list view with filter function. The result can be seen here:
   [AWS](https://aws.amazon.com/) to schedule update of GraphCool backend via
   serverless function
 
-## Spike file structure
+## Notes on [Spike](https://www.spike.cf/)
 
 - Client-side JavaScript, CSS and images can be found in `assets/`
 - HTML can be found in `views/`
-- The completed build can be found in `public/`
+- The completed static build for this project can be found in `public_static/`
 - `app.js` includes the configuration for spike (Thin layer above webpack
   configuration)
+- `spike compile` compiles site into `public/`. `spike watch` does the same but
+  watches for file changes. `spike clean` deletes the output directory.
 
 ## Backend / Foursquare API
 
@@ -47,7 +49,7 @@ hours. This in return triggers GraphCool's serverless function to fetch data
 from the Foursquare API. (Scheduled function invocation is not possible in
 GraphCool alone)
 
-## Notes on GraphCool
+## Notes on [GraphCool](https://www.graph.cool/)
 
 - Serverless function to fetch data can be found in
   `graphcool/src/fetch-foursquare.js`
@@ -55,7 +57,7 @@ GraphCool alone)
 - `graphcool__no-secrets.yml` has been included instead of
   `graphcool.yml` to not store any secrets on GitHub
 
-## Notes on Serverless Framework
+## Notes on [Serverless Framework](https://serverless.com/)
 
 - Function that triggers GraphCool update of Foursquare places can be found in
   `serverless/handler.js`

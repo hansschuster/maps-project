@@ -7,7 +7,7 @@ const env = process.env.SPIKE_ENV
 module.exports = {
   devtool: 'source-map',
   ignore: ['**/layout.html', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
-           'graphcool/**', 'serverless/**'],
+           'graphcool/**', 'serverless/**', 'public_static/**'],
   reshape: htmlStandards({
     locals: (ctx) => { return { pageId: pageId(ctx), foo: 'bar' } },
     minify: env === 'production'
