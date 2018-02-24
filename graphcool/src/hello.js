@@ -9,10 +9,10 @@ export default async event => {
   //     message: `Hello ${event.data.name || 'World'}`
   //   }
   // }
-  console.log(process.env['TEST_VARIABLE'])
+  console.log(process.env['TEST_VARIABLE']);
   return {
     data: {
       message: `Hello ${process.env['TEST_VARIABLE'] || 'World'}`
     }
-  }
+  };
 }

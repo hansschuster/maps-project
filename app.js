@@ -1,8 +1,8 @@
-const htmlStandards = require('reshape-standard')
-const cssStandards = require('spike-css-standards')
-const jsStandards = require('spike-js-standards')
-const pageId = require('spike-page-id')
-const env = process.env.SPIKE_ENV
+const htmlStandards = require('reshape-standard');
+const cssStandards = require('spike-css-standards');
+const jsStandards = require('spike-js-standards');
+const pageId = require('spike-page-id');
+const env = process.env.SPIKE_ENV;
 
 module.exports = {
   devtool: 'source-map',
@@ -20,4 +20,4 @@ module.exports = {
   entry: {
     'js/main': './assets/js/main.js'
   }
-}
+};
