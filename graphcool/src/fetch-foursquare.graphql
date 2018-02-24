@@ -1,0 +1,12 @@
+# type FoursquarePayload {
+#   name: String
+#   fsId: String!
+#   photo300: String
+#   url: String
+#   hours: String
+#   rating: Float
+# }
+#
+# extend type Query {
+#   fetchFoursquarePlace(fsId: String!): FoursquarePayload
+# }

@@ -1,0 +1,21 @@
+# The following types define the data model of the service
+# based on which the GraphQL API is generated
+
+type User @model {
+  id: ID! @isUnique
+  name: String
+  dateOfBirth: DateTime
+}
+
+type FoursquarePlace @model {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  name: String
+  fsId: String! @isUnique
+  photo300: String
+  url: String
+  rating: Float
+  hours: [String!]
+  location: Json
+}
